@@ -1,0 +1,6 @@
+{
+  "name": "Emotion-Adaptive Smart Desk Lamp",
+  "description": "An intelligent adaptive lighting system that analyzes emotional and environmental conditions to improve focus, wellbeing, and productivity. Developed for CCDT, AICTE Innovation Repository.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
