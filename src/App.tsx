@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useEffect, useRef } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import NavigationHeader from './components/NavigationHeader';
 import HeroStage from './components/HeroStage';
 import ProblemStatement from './components/ProblemStatement';
@@ -279,6 +280,7 @@ export default function App() {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
